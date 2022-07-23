@@ -1,0 +1,10 @@
+.cover {
+    width: 100%;
+    height: 740px;
+    margin-bottom: 92px;
+    position: relative;
+}
+
+.cover:hover .cover__background {
+    opacity: 20%;
+}

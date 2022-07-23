@@ -1,0 +1,22 @@
+.places__place {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(460px, 484px));
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "places__title places__website"
+    "places__image places__paragraphs";
+    column-gap: 40px;
+    row-gap: 48px;
+    margin-bottom: 80px;
+}
+
+.places__place:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places__place {
+        column-gap: 32px;
+        grid-template-columns: repeat(2, minmax(440px, 456px));
+    }    
+}

@@ -1,0 +1,16 @@
+.page {
+    background-color: #2A2C2F;
+    min-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .page{
+        width: 100%;
+    }
+    
+    
+}
