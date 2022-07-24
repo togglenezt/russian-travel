@@ -1,9 +1,9 @@
 .place__text-container {
     display: grid;
     width: 100%;
-    height: min-content;
     margin: 0;
     gap: 26px;
+    align-self: start;
 }
 
 @media screen and (max-width: 425px) {
