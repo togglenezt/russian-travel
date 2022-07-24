@@ -1,0 +1,14 @@
+.place__text-container {
+    display: grid;
+    width: 100%;
+    height: min-content;
+    margin: 0;
+    gap: 26px;
+}
+
+@media screen and (max-width: 425px) {
+    .place__text-container {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}

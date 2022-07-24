@@ -1,7 +1,18 @@
 .intro__text {
-    color: white;
+    max-width: 690px;
+    width: 100%;
     font-size: 16px;
-    font-weight: 400;
     line-height: 26px;
-    margin: 0 0 33px 0;
+    margin: 40px 0 33px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .intro__text {
+        margin-bottom: 34px;
+    }
 }

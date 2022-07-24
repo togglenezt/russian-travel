@@ -1,9 +1,0 @@
-.places__title {
-    grid-area: places__title;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    margin: 0;
-    max-width: 460px;
-    width: 100%;
-}
