@@ -28,10 +28,10 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .place {
-        width: 100vw;
-        grid-template-columns: 100vw;
+        width: 100%;
+        grid-template-columns: 100%;
         gap: 32px;
         margin-bottom: 50px;
     }

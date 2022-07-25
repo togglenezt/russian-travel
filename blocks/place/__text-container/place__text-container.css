@@ -6,7 +6,7 @@
     align-self: start;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .place__text-container {
         width: 90vw;
         margin: 0 auto;
