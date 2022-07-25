@@ -11,6 +11,5 @@
 @media screen and (max-width: 1024px) {
     .cover {
         width: calc(100vw - 1px);
-        overflow: hidden;
     }
 }
