@@ -1,13 +1,16 @@
 .cover {
     width: 92.5%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
-        width: 99.9vw;
+        width: calc(100vw - 1px);
+        overflow: hidden;
     }
 }
