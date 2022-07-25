@@ -4,7 +4,6 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
