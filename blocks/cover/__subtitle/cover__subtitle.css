@@ -4,8 +4,8 @@
     line-height: 22px;
     text-align: center;
     margin: 0;
-    z-index: 3;
     color: white;
+    position: relative;
 }
 
 @media screen and (max-width: 425px) {

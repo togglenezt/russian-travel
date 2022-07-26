@@ -5,8 +5,8 @@
    text-align: center;
    margin: 0 0 32px;
    max-width: 560px;
-   z-index: 3;
    color: white;
+   position: relative;
 }
 
 @media screen and (max-width: 768px) {

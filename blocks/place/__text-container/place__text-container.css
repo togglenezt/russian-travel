@@ -6,9 +6,16 @@
     align-self: start;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .place__text-container {
-        width: 90vw;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__text-container {
+        width: 288px;
         margin: 0 auto;
     }
 }

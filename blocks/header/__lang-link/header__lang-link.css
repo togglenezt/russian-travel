@@ -4,6 +4,11 @@
     font-size: 24px;
     line-height: 28px;
     box-sizing: border-box;
+    transition: opacity 0.5s linear;
+}
+
+.header__lang-link:hover {
+    opacity: 80%;
 }
 
 @media screen and (max-width: 425px) {

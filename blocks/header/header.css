@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 1024px) {
     .header {
-        width: 92.431%;
+        width: 90.626%;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .header {
-        width: 95%;
+        width: 93.75%;
     }
 }
 
