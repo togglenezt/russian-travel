@@ -9,11 +9,12 @@
 @media screen and (max-width: 768px) {
     .place__text-container {
         max-width: 100%;
+        gap: 25px;
         margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
     .place__text-container {
         width: 288px;
         margin: 0 auto;

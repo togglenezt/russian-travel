@@ -5,4 +5,11 @@
     display: flex;
     gap: 18px;
     align-items: end;
+    padding-bottom: 6px;
+}
+
+@media screen and (max-width: 425px) {
+    .header__links {
+        padding-bottom: 8px;
+    }
 }

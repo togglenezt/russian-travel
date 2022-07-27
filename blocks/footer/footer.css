@@ -16,11 +16,11 @@
 @media screen and (max-width: 768px) {
     .footer {
         max-width: 720px;
-        margin-top: 90px;
+        margin-top: 87px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
     .footer {
         max-width: 188px;
         margin-top: 64px;
